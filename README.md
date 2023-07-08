@@ -1,2 +1,3 @@
-# react-atoms
-A react library for fundamental atoms of page building.
+# components
+
+공용으로 사용되는 컴포넌트를 모아둔 workspace 입니다
