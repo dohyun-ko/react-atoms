@@ -51,7 +51,7 @@ function MyApp() {
 
 ## Documentation
 
-For detailed documentation, see [link to your documentation].
+TODO
 
 ## Acknowledgements
 
