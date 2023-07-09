@@ -1,6 +1,5 @@
 const defaultTheme = {
     primary: "#0F6292",
-    //primary: "#FF6565",
     secondary: "#FF8282",
     primaryLight: "#FFECEC",
   

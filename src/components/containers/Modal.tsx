@@ -1,10 +1,11 @@
 
 import React, { createContext, useContext, useEffect } from "react";
+import { MyThemeContext } from "src/themes";
 import styled, { css, keyframes } from "styled-components";
 import xIcon from "../assets/icon-x.svg";
 import FilledButton from "../buttons/FilledButton";
 import Text from "../texts/Text";
-import { ThemeContext } from "../theme/ThemeContext";
+
 
 const slideUp = keyframes`
   from {
@@ -127,7 +128,7 @@ const CancelButton: React.FC<ButtonProps> = ({
   style,
 }) => {
   const { onClose } = useContext(ModalContainerContext);
-  const theme = useContext(ThemeContext);
+  const theme = useContext(MyThemeContext);
 
   return (
     <FilledButton
@@ -155,7 +156,7 @@ const Button: React.FC<ButtonProps> = ({
   style,
   disabled,
 }) => {
-  const theme = useContext(ThemeContext);
+  const theme = useContext(MyThemeContext);
 
   
   return (

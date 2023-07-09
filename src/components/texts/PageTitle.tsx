@@ -1,7 +1,7 @@
 import React, { useContext } from "react";
+import { MyThemeContext } from "src/themes";
 import { Button } from "../buttons";
 import Flex from "../containers/Flex";
-import { ThemeContext } from "../theme/ThemeContext";
 import Text from "./Text";
 
 interface PageTitleProps {
@@ -11,7 +11,7 @@ interface PageTitleProps {
 }
 
 const PageTitle = ({ title, onClick, style }: PageTitleProps) => {
-  const theme = useContext(ThemeContext);
+  const theme = useContext(MyThemeContext);
 
   return (
     <Button

@@ -1,7 +1,7 @@
 import React, { useContext } from "react";
+import { MyThemeContext } from "src/themes";
 import styled from "styled-components";
 import { Circle } from "../figures";
-import { ThemeContext } from "../theme/ThemeContext";
 
 const KebabWrapper = styled.div`
   width: 25px;
@@ -21,7 +21,7 @@ export interface KebabProps {
 }
 
 const Kebab = ({ style }: KebabProps) => {
-  const theme = useContext(ThemeContext);
+  const theme = useContext(MyThemeContext);
 
   return (
     <KebabWrapper style={style}>

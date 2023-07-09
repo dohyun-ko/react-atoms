@@ -1,6 +1,6 @@
 import React from "react";
 import { ThemeProvider } from "styled-components";
-import { ThemeContext } from "./ThemeContext";
+import MyThemeContext from "./MyThemeContext";
 import defaultTheme from "./defaultTheme";
 
 interface MyThemeProviderProps {
@@ -15,9 +15,9 @@ const MyThemeProvider = ({ theme, children }: MyThemeProviderProps) => {
     };
 
     return (
-        <ThemeContext.Provider value={combinedTheme}>
+        <MyThemeContext.Provider value={combinedTheme}>
             <ThemeProvider theme={combinedTheme}>{children}</ThemeProvider>
-        </ThemeContext.Provider>
+        </MyThemeContext.Provider>
     )
 }
 

@@ -1,6 +1,6 @@
 {
-  "name": "react-atoms",
-  "version": "0.1.0",
+  "name": "@dohyun-ko/react-atoms",
+  "version": "0.1.2",
   "type": "module",
   "main": "dist/cjs/index.js",
   "module": "dist/esm/index.js",
@@ -9,7 +9,10 @@
     "dist"
   ],
   "packageManager": "yarn@3.6.1",
-  "dependencies": {
+  "peerDependencies": {
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "react-is": "^18.2.0",
     "styled-components": "^5.3.6"
   },
   "devDependencies": {
@@ -20,9 +23,6 @@
     "@types/react-dom": "^18.2.6",
     "@types/styled-components": "^5.1.26",
     "@yarnpkg/sdks": "^3.0.0-rc.48",
-    "react": "^18.2.0",
-    "react-dom": "^18.2.0",
-    "react-is": "^18.2.0",
     "rollup": "^3.26.2",
     "rollup-plugin-dts": "^5.3.0",
     "rollup-plugin-svg": "^2.0.0",
@@ -41,6 +41,9 @@
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/dohyun-ko/react-atoms/issues"
+  },
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com/dohyun-ko"
   },
   "homepage": "https://github.com/dohyun-ko/react-atoms#readme"
 }
