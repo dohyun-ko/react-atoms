@@ -18,7 +18,7 @@ const Button = styled.button<ButtonProps>`
   border: ${({ border }) => (border ? border : "none")};
   border-radius: ${({ borderRadius }) => (borderRadius ? borderRadius : null)};
   pointer-events: ${({ disabled }) => (disabled ? "none" : "auto")};
-  background: transparent;
+  background: none;
   background-color: ${({ backgroundColor }) => backgroundColor ?? "none"};
 
   :hover {
