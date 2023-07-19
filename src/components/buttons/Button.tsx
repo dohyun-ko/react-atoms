@@ -17,8 +17,8 @@ const Button = styled.button<ButtonProps>`
   padding: 0;
   border: ${({ border }) => (border ? border : "none")};
   border-radius: ${({ borderRadius }) => (borderRadius ? borderRadius : null)};
-  background: none;
   pointer-events: ${({ disabled }) => (disabled ? "none" : "auto")};
+  background: none;
   background-color: ${({ backgroundColor }) => backgroundColor ?? undefined};
 
   :hover {

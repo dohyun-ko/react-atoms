@@ -60,3 +60,9 @@ This library was inspired by and built upon the knowledge shared in Alex Eagleso
 ## License
 
 MIT
+
+## Change Log
+
+### 0.1.5
+
+- Add "backgroundColor" props to Button component
