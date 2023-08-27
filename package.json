@@ -1,6 +1,6 @@
 {
   "name": "@dohyun-ko/react-atoms",
-  "version": "0.1.10",
+  "version": "0.1.14",
   "type": "module",
   "main": "dist/cjs/index.js",
   "module": "dist/esm/index.js",
@@ -59,7 +59,7 @@
     "url": "https://github.com/dohyun-ko/react-atoms/issues"
   },
   "publishConfig": {
-    "registry": "https://npm.pkg.github.com"
+    "registry": "https://registry.npmjs.org"
   },
   "homepage": "https://github.com/dohyun-ko/react-atoms#readme"
 }
