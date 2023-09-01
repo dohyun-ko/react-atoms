@@ -12,6 +12,10 @@ const Circle = styled.div<CircleProps>`
   border-radius: 50%;
   background-color: ${({ theme, backgroundColor }) =>
     backgroundColor ?? theme.primary};
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
 `;
 
 export default Circle;
