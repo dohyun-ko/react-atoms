@@ -1,11 +1,9 @@
-
 import React, { createContext, useContext, useEffect } from "react";
 import { MyThemeContext } from "src/themes";
 import styled, { css, keyframes } from "styled-components";
 import xIcon from "../assets/icon-x.svg";
 import FilledButton from "../buttons/FilledButton";
 import Text from "../texts/Text";
-
 
 const slideUp = keyframes`
   from {
@@ -158,7 +156,6 @@ const Button: React.FC<ButtonProps> = ({
 }) => {
   const theme = useContext(MyThemeContext);
 
-  
   return (
     <FilledButton
       disabled={disabled}
