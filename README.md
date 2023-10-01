@@ -63,6 +63,10 @@ MIT
 
 ## Change Log
 
+### 0.2.0
+
+- Removed CJS build
+
 ### 0.1.5
 
 - Add "backgroundColor" props to Button component

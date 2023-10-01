@@ -1,9 +1,8 @@
 {
   "name": "@dohyun-ko/react-atoms",
-  "version": "0.1.19",
+  "version": "0.2.0",
   "type": "module",
-  "main": "dist/cjs/index.js",
-  "module": "dist/esm/index.js",
+  "main": "dist/esm/index.js",
   "types": "dist/index.d.ts",
   "files": [
     "dist"
