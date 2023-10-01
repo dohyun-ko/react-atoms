@@ -1,4 +1,4 @@
-import React from 'react';
+import React from "react";
 import styled from "styled-components";
 
 interface HighlightProps {
@@ -13,4 +13,4 @@ const Highlight = styled.span<HighlightProps>`
   font-weight: ${({ weight }) => weight ?? "inherit"};
 `;
 
-export default Highlight
+export default Highlight;

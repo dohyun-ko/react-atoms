@@ -6,7 +6,7 @@ export interface ContentAreaProps {
 
 const Content = styled.div<ContentAreaProps>`
   width: ${({ theme, width }) => (width ? width : theme.CONTENT_AREA_DESKTOP)};
-  max-width: ${({ width }) => (width ? width : "1240px")};
+  max-width: ${({ width }) => width ?? "1240px"};
 
   @media screen and (max-width: 768px) {
     width: ${({ theme, width }) => (width ? width : theme.CONTENT_AREA_MOBILE)};
